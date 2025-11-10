@@ -247,4 +247,37 @@ margin-bottom: 10px;
 
 @media (max-width: 1500px) and (min-width: 1400px) {}
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 20px 20px;
+}
+.footer-txt {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.ftr-icon{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer-txt ul {
+    padding-left: 1rem;
+}
+.logo-sec img{
+  width: 80px;
+}
+.vid-sec{
+  margin-bottom: 30px;
+}
+.ceebee {
+font-size: 27px;
+}
+.bang{
+  margin-bottom: 0px;
+}
+.studio-text {
+padding: 30px 15px 0px 15px;
+  }
+  .vogue{
+    margin-bottom: 30px;
+  }
+}
