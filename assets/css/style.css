@@ -229,10 +229,16 @@ h2 {
   text-align: center;
   margin-top: 15px;
  } 
-.bang{
-
+.fotr{
+font-family: "Glass Antiqua", cursive;
 }
-
+.fotrr{
+font-family: "Glass Antiqua", cursive;
+color: #fff;
+}
+.footer-txt{
+  margin: 10px;
+}
 
 @media (max-width: 1500px) and (min-width: 1400px) {}
 
