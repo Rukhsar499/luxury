@@ -1,0 +1,239 @@
+@font-face {
+  font-family: Banegsa;
+  src: url(../fonts/Banegsa.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.header {
+  background-color: #201F1F;
+  padding: 10px 0px;
+}
+
+.ceebee {
+  color: #FFD700;
+  font-family: "Banegsa";
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: "Banegsa";
+  color: #FFD700;
+}
+
+.text-sec {
+  padding-top: 20px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.studio-text {
+  background-color: #191919;
+  padding: 50px 25px;
+  border-radius: 30px;
+}
+
+.banner-vedio {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.second-video {
+  margin-top: 50px;
+}
+
+.video-section video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pro-text {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+
+.resi {
+  background-color: #fff;
+  padding: 3px 10px;
+  color: #000;
+  font-size: 12px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  transition: opacity 0.4s ease;
+}
+
+.play-btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pro-img {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #0000008e;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.pro-img:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pres-sce {
+  background-color: #191919;
+  padding: 50px 25px;
+  position: relative;
+}
+
+.specific img {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ply {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+
+}
+
+.swiper {
+    width: 100%;
+    
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    border-radius: 20px;
+    color: white;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .swiper-slide h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+.lij{
+  color: #fff;
+}
+.footer{
+  padding: 70px 20px;
+}
+  .swiper-slide p {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 5px;
+  }
+
+  .swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.4;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #ffcc00;
+    opacity: 1;
+  }
+.vid-sec{
+  position: relative;
+}
+ .video-tet{
+  text-align: center;
+  margin-top: 15px;
+ } 
+.bang{
+
+}
+
+
+@media (max-width: 1500px) and (min-width: 1400px) {}
+
+@media screen and (max-width: 767px) {}
