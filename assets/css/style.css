@@ -240,6 +240,10 @@ margin-bottom: 10px;
 .footer-txt{
   margin: 10px;
 }
+.ftr-icon img{
+  width: 25px;
+  margin-right: 5px;
+}
 
 @media (max-width: 1500px) and (min-width: 1400px) {}
 
