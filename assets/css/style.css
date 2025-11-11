@@ -273,13 +273,16 @@ margin-bottom: 10px;
 .footer-txt{
   margin: 10px;
 }
+.footer-txt h2{
+  text-align: left;
+}
 .ftr-icon img{
   width: 25px;
   height: 25px;
   margin-right: 5px;
 }
 .accordion-item{
- 
+  
   border: none !important;
 }
 .accordion-item ul li{
@@ -294,6 +297,9 @@ margin-bottom: 10px;
   border: none;
   border-bottom: 1px solid #00000052 !important;
 }
+.accordion-body{
+  background-color: #201F1F;
+}
 .accordion-button:not(.collapsed) {
     background-color: #000;
     color:#fff;
@@ -302,10 +308,7 @@ margin-bottom: 10px;
     --bs-accordion-btn-focus-box-shadow: none !important;
     
 }
-.accordion-body{
-background-color: #000;
-color: #fff;
-}
+
 @media (max-width: 1500px) and (min-width: 1400px) {}
 
 @media screen and (max-width: 767px) {
