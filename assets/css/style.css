@@ -44,32 +44,26 @@ body {
   font-size: 40px;
   margin-bottom: 0px;
 }
-
 h2 {
   font-family: "Banegsa";
   color: #FFD700;
 }
-
 .text-sec {
   padding-top: 20px;
 }
-
 .mb {
   margin-bottom: 50px;
 }
-
 .studio-text {
   background-color: #191919;
   padding: 50px 25px;
   border-radius: 30px;
 }
-
 .banner-vedio {
   width: 100%;
   display: block;
   margin: auto;
 }
-
 .video-section {
   position: relative;
   width: 100%;
@@ -77,7 +71,6 @@ h2 {
   overflow: hidden;
   padding-top: 100px;
 }
-
 .second-video {
   margin-top: 50px;
 }
@@ -174,6 +167,28 @@ h2 {
   text-align: center;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 7px 4px;
+    background-color: #f2f2f2;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200msease;
+    border-radius: 30px;
+    text-align: center;
+}
+.owl-dots {
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #FFD700;
+  width: 40px;
+  height: 10px;
+}
 .pres-sce {
   background-color: #191919;
   padding: 50px 25px;
