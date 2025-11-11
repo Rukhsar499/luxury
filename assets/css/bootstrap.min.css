@@ -5209,7 +5209,7 @@ fieldset:disabled .btn {
     --bs-accordion-btn-color: var(--bs-body-color);
     --bs-accordion-btn-bg: var(--bs-accordion-bg);
     --bs-accordion-btn-icon: url("../img/add.png");
-    --bs-accordion-btn-icon-width: 30px;
+    --bs-accordion-btn-icon-width: 15px;
     --bs-accordion-btn-icon-transform: rotate(-180deg);
     --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
     --bs-accordion-btn-active-icon: url("../img/minus-sign.png");
