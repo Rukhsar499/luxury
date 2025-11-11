@@ -20,6 +20,7 @@ p {
 
 body {
   background-color: #000;
+   font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -190,13 +191,13 @@ h2 {
   height: 10px;
 }
 .pres-sce {
-  background-color: #191919;
+ 
   padding: 50px 25px;
   position: relative;
 }
-.sp{
+/* .sp{
   background-color: #191919;
-}
+} */
 .vogue{
  margin-right: 20px;
 }
@@ -221,12 +222,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #222;
     border-radius: 20px;
     color: white;
     flex-direction: column;
-    height: 200px;
-  }
+}
 
   .swiper-slide h1 {
     font-size: 28px;
@@ -277,7 +276,31 @@ margin-bottom: 10px;
   height: 25px;
   margin-right: 5px;
 }
-
+.accordion-item{
+ 
+  border: none !important;
+}
+.accordion{
+  margin-top: 50px;
+}
+.accordion-button{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #00000052 !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #000;
+    color:#fff;
+}
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    
+}
+.accordion-body{
+background-color: #000;
+color: #fff;
+}
 @media (max-width: 1500px) and (min-width: 1400px) {}
 
 @media screen and (max-width: 767px) {
@@ -323,4 +346,14 @@ padding: 30px 15px 0px 15px;
   .about img{
     width: 200px;
   }
+  .owl-dots {
+   bottom: -40%;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 8px;}
+ .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+   width: 40px;
+    
+}   
+
 }
