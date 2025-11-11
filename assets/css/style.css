@@ -32,6 +32,12 @@ body {
 .bang{
   margin-bottom: 0px;
 }
+.sp{
+  padding: 50px 20px;
+}
+.ftf{
+  padding-top: 20px;
+}
 .ceebee {
   color: #FFD700;
   font-family: "Banegsa";
