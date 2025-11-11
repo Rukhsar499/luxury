@@ -34,9 +34,9 @@ body {
 .bang{
   margin-bottom: 0px;
 }
-.sp{
+/* .sp{
   padding: 0px 20px 50px 20px;
-}
+} */
 .ftf{
   padding-top: 20px;
 }
@@ -286,6 +286,8 @@ border: none !important;
 }
 .accordion-item ul li{
   padding-bottom: 10px;
+  color: #fff;
+  font-size: 14px;
 }
 .accordion{
   margin-top: 50px;
@@ -361,6 +363,9 @@ padding: 30px 15px 0px 15px;
  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
    width: 40px;
     
-}   
+} 
+.ply{
+  display: none;
+}  
 
 }
