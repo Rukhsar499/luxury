@@ -282,6 +282,9 @@ margin-bottom: 10px;
  
   border: none !important;
 }
+.accordion-item ul li{
+  padding-bottom: 10px;
+}
 .accordion{
   margin-top: 50px;
 }
