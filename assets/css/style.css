@@ -282,8 +282,7 @@ margin-bottom: 10px;
   margin-right: 5px;
 }
 .accordion-item{
-  
-  border: none !important;
+border: none !important;
 }
 .accordion-item ul li{
   padding-bottom: 10px;
