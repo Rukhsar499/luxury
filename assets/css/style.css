@@ -367,5 +367,7 @@ padding: 30px 15px 0px 15px;
 .ply{
   display: none;
 }  
-
+.pres-sce {
+    padding: 20px;
+  }
 }
