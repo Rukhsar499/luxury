@@ -29,7 +29,9 @@ body {
   width: 100%;
   z-index: 999;
 }
-
+.bang{
+  margin-bottom: 0px;
+}
 .ceebee {
   color: #FFD700;
   font-family: "Banegsa";
@@ -278,9 +280,7 @@ margin-bottom: 10px;
 .ceebee {
 font-size: 27px;
 }
-.bang{
-  margin-bottom: 0px;
-}
+
 .studio-text {
 padding: 30px 15px 0px 15px;
   }
