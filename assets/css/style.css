@@ -301,7 +301,7 @@ margin-bottom: 10px;
   background-color: #201F1F;
 }
 .accordion-button:not(.collapsed) {
-    background-color: #000;
+    background-color: #201F1F;
     color:#fff;
 }
 .accordion{
